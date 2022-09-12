@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Probabilística</title>
+
+	<meta charset="utf-8">	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+	<!--<link rel="stylesheet" href="../assets/fonts/font-awesome/css/font-awesome.min.css">-->
+	<link rel="stylesheet" href="assets/fonts/flaticon/flaticon.css">
+	
+	<!-- Vendor css -->
+	<link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">	
+	<link rel="stylesheet" href="assets/vendor/owl-carousel/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="assets/vendor/owl-carousel/assets/owl.theme.default.min.css">
+	<link rel="stylesheet" href="assets/vendor/magnific-popup/magnific-popup.css">
+
+	<!-- Core css -->
+	<link rel="stylesheet" href="assets/css/ronby.css">
+	<link rel="stylesheet" href="assets/css/styles.css">
+
+	<!-- Vendor js -->
+	<script src="assets/js/jquery-3.3.1.min.js"></script>
+	<script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+	<script src="assets/vendor/owl-carousel/owl.carousel.min.js"></script>
+	<script src="assets/vendor/masonry/masonry.pkgd.min.js"></script>
+	<script src="assets/vendor/isotope/isotope.pkgd.min.js"></script>
+	<script src="assets/vendor/jquery-countdown/jquery.countdown.min.js"></script>
+	<script src="assets/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+	<!-- Core js -->
+	<script src="assets/js/ronby.js"></script>
+	<script src="assets/js/counterUp.js"></script>
+
+	<!-- Others -->
+
+		<!-- REVOLUTION STYLE SHEETS -->
+		<link rel="stylesheet" type="text/css" href="assets/vendor/revslider/css/settings.css">
+		<!-- REVOLUTION LAYERS STYLES -->
+		<link rel="stylesheet" type="text/css" href="assets/vendor/revslider/css/layers.css">
+		<!-- REVOLUTION NAVIGATION STYLES -->
+		<link rel="stylesheet" type="text/css" href="assets/vendor/revslider/css/navigation.css">
+
+				
+		<!-- REVOLUTION JS FILES -->
+		<script type="text/javascript" src="assets/vendor/revslider/js/jquery.themepunch.tools.min.js"></script>
+		<script type="text/javascript" src="assets/vendor/revslider/js/jquery.themepunch.revolution.min.js"></script>
+
+		<!-- Slider Revolution extension scripts. ONLY NEEDED FOR LOCAL TESTING --> 
+		<script type="text/javascript" src="assets/vendor/revslider/js/extensions/revolution.extension.actions.min.js"></script>
+		<script type="text/javascript" src="assets/vendor/revslider/js/extensions/revolution.extension.carousel.min.js"></script>
+		<script type="text/javascript" src="assets/vendor/revslider/js/extensions/revolution.extension.kenburn.min.js"></script>
+		<script type="text/javascript" src="assets/vendor/revslider/js/extensions/revolution.extension.layeranimation.min.js"></script>
+		<script type="text/javascript" src="assets/vendor/revslider/js/extensions/revolution.extension.migration.min.js"></script>
+		<script type="text/javascript" src="assets/vendor/revslider/js/extensions/revolution.extension.navigation.min.js"></script>
+		<script type="text/javascript" src="assets/vendor/revslider/js/extensions/revolution.extension.parallax.min.js"></script>
+		<script type="text/javascript" src="assets/vendor/revslider/js/extensions/revolution.extension.slideanims.min.js"></script>
+		<script type="text/javascript" src="assets/vendor/revslider/js/extensions/revolution.extension.video.min.js"></script>
+</head>
+
+<body class="layout-1" style="background-image: url(images/background-calidad-confiabilidad.png); background-size: 1600px;">
+
+<div id="wrapper">
+
+	<!-- Nav mobile -->
+		<nav class="nav-mobile d-lg-none navbar navbar-expand-lg navbar-light">
+			<a class="navbar-brand d-lg-none" href="index.html#">
+				<img src="images/logo.png" alt="">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-toggle-nav" aria-controls="mobile-toggle-nav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="mobile-toggle-nav">
+				<div class="menu-mobile">
+				
+				
+					<ul class="no-style menu navbar-nav">
+						<li class="dropdown">
+							<a href="nuestra-empresa.html" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Nuestra Empresa</a>
+							<ul class="sub-menu dropdown-menu">
+								<li class="submenu-item">
+									<a href="quien-somos.html">¿Quienes Somos?</a>
+								</li>
+								<li class="submenu-item">
+									<a href="origen.html">Origen</a>
+								</li>
+								<li class="submenu-item">
+									<a href="nuestra-gente.html">Nuestra Gente</a>
+								</li>
+								<li class="submenu-item">
+									<a href="socios-de-negocios.html">Socios de Negocios</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Conocimientos</a>
+							<ul class="sub-menu dropdown-menu">
+								<li class="submenu-item">
+									<a href="proyectos-ad-hoc.html">Proyectos Ad-hoc</a>
+								</li>
+								<li class="submenu-item">
+									<a href="calidad-y-confiabilidad.html">Calidad y Confiabilidad</a>
+								</li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="soluciones.html" >Soluciones</a>	
+							
+						</li>		
+						<li class="dropdown">
+							<a href="proyectos.html" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Proyectos</a>
+							<ul class="sub-menu dropdown-menu">
+								<li class="submenu-item">
+									<a href="proyectos-sociales.html">Proyectos Sociales</a>
+								</li>
+								<li class="submenu-item">
+									<a href="proyectos-de-calidad.html">Investigación en Calidad y Mercados</a>
+								</li>
+                                <li class="submenu-item">
+								    <a href="encuestas-publicas.html">Encuestas Públicas</a>
+								</li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="contacto.html" >Contacto</a>
+							
+						</li>
+						<li class="dropdown">
+							<a href="aviso.html" >Aviso de Privacidad</a>
+							
+						</li>
+
+
+					</ul>
+				</div>					
+			</div>
+		</nav>
+	<!-- /Nav mobile -->
+
+	<!-- Header -->
+	<div id="header" class="header-1">
+
+		<div class="hidden-search-form">
+			<div class="overlay-absolute">
+				<div class="search-form">
+					<div class="text-right">
+						<span class="form-close">
+							<i class="fa fa-times-circle"></i>
+						</span>
+					</div>
+					<form action="index.html">
+						<div class="form-group-with-button">
+							<input class="form-element-styled form-group-input" type="search" name="s" placeholder="Enter keywords">
+							<button class="form-group-button background-primary color-inverse" type="submit"><i class="fa fa-search"></i></button>
+						</div>										
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<!-- Header top -->
+		<div class="header-top d-none d-xl-block">
+			<div class="container">			
+				<div class="row flex-wrap align-items-center justify-content-between">
+					<div class="col-auto">
+						<!--<ul class="list-contact-infomations no-style items-inline-block">
+							<li>
+								<a href="tel:55638518" class="no-color">
+									<i class="fa fa-phone" aria-hidden="true"></i> 5563-8518 / 5615-7011
+								</a>
+							</li>
+							<li>
+								<a href="mailto: gloria@probabilistica.net" class="no-color">
+									<i class="fa fa-envelope"></i> gloria@probabilistica.net
+								</a>
+							</li>
+							<li>
+								<a href="index.html#" class="no-color">
+									<i class="fa fa-map-marker"></i> Félix Parra 36, Col. San José Insurgentes, CDMX
+								</a>
+							</li>
+						</ul>-->
+					</div>
+					<!--<div class="col-lg-auto d-none d-lg-block">						
+						<div class="social-1">
+							<ul class="no-style items-inline-block">
+								<li class="animate-200 hover-background-secondary hover-color-white">
+									<a href="index.html#" class="no-color">
+										<i class="fa fa-facebook-f"></i>
+									</a>
+								</li>
+								<li class="animate-200 hover-background-secondary hover-color-white">
+									<a href="index.html#" class="no-color">
+										<i class="fa fa-twitter"></i>
+									</a>
+								</li>
+								<li class="animate-200 hover-background-secondary hover-color-white">
+									<a href="index.html#" class="no-color">
+										<i class="fa fa-google-plus"></i>
+									</a>
+								</li>
+								<li class="animate-200 hover-background-secondary hover-color-white">
+									<a href="index.html#" class="no-color">
+										<i class="fa fa-linkedin"></i>
+									</a>
+								</li>
+							</ul>
+						</div>						
+					</div>-->
+				</div>
+			</div>
+		</div>
+		<!-- /Header top -->
+
+		<!-- Header nav -->
+		<div class="header-nav">
+			<div class="container">
+				<div class="row flex-wrap align-items-center d-none d-lg-flex">
+					<div class="col-auto mr-auto">
+						<div class="logo">
+							<a href="index.html">
+								<img src="images/logo.png" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="col-auto">
+						<div class="main-menu">						
+							<ul class="menu clearfix">
+								
+								<li class="menu-item">
+									<a href="nuestra-empresa.html">Nuestra Empresa</a>
+									<ul class="sub-menu">
+										<li class="submenu-item">
+											<a href="quien-somos.html">¿Quienes Somos?</a>
+										</li>
+										<li class="submenu-item">
+											<a href="origen.html">Origen</a>
+										</li>
+										<li class="submenu-item">
+											<a href="nuestra-gente.html">Nuestra Gente</a>
+										</li>
+										<li class="submenu-item">
+											<a href="socios-de-negocios.html">Socios de  Negocio</a>
+										</li>
+									</ul>
+								</li>
+								<li class="menu-item menu-item-has-children">
+									<a href="#">Conocimiento</a>	
+									<ul class="sub-menu">
+										<li class="submenu-item">
+											<a href="proyectos-ad-hoc.html">Proyectos Ad-hoc</a>
+										</li>
+										<li class="submenu-item">
+											<a href="calidad-y-confiabilidad.html">Calidad y Confidencialidad</a>
+										</li>
+									</ul>
+								</li>		
+								<li class="menu-item menu-item-has-children">
+									<a href="soluciones.html">Soluciones</a>
+									</li>
+									
+								<li class="menu-item menu-item-has-children">
+									<a href="proyectos.html#">Proyectos</a>
+									<ul class="sub-menu">
+										<li class="submenu-item">
+											<a href="proyectos-sociales.html">Proyectos Sociales</a>
+										</li>
+										<li class="submenu-item">
+											<a href="proyectos-de-calidad.html">Investigación en Calidad y Mercados</a>
+										</li>
+                                        <li class="submenu-item">
+											<a href="encuestas-publicas.html">Encuestas Públicas</a>
+										</li>
+									</ul>
+								</li>
+								<li class="menu-item menu-item-has-children">
+									<a href="contacto.html">Contacto</a>
+								</li>
+								<li class="menu-item menu-item-has-children">
+									<a href="aviso.html">Aviso de Privacidad</a>
+									
+								</li>
+								
+							</ul>
+						</div>	
+						
+					</div>
+					
+				</div>
+
+					
+			</div>
+		</div>
+		<!-- /Header nav -->			
+
+	</div>
+	<!-- /Header -->
+	
+	
+	
+	
+	
+	
+	
+	<!-- Page header -->
+	<div class="page-header-1">
+		<div class="overlay">				
+			<div class="container">
+				<div class="inner-content d-flex flex-column justify-content-center">
+					<h1 class="page-header-title">contactanos</h1>
+					
+					<div class="page-header-breadcrumb background-primary">
+						<a href="index.html">Inicio</a> - <span>contactanos</span>
+					</div>
+				</div>					
+			</div>
+		</div>			
+	</div>
+	<!-- /Page header -->
+
+	<!-- Content -->
+	<div id="content" style="padding: 125px 0 110px;">
+		
+		
+		<section>
+			<div class="container">
+				<div class="section-header-style-2">
+					<h2 class="section-title">
+						Quiere saber más?
+					</h2>
+					<h4 class="section-sub-title">
+						Llene la forma de contacto si necesita información adicional.
+					</h4>
+					<div class="separator background-primary color-primary">
+						<div class="icon">
+							<i class="flaticon-drawing"></i>
+						</div>
+					</div>
+				</div>
+				
+                   <div class="row">
+					<div class="col-lg-7">
+						<div class="contact-page-detail" style="margin-bottom: 110px;padding-right: 37px;">
+							<div class="section-header-style-1">
+								<h2 class="section-title">
+									Contáctenos
+								</h2>
+							</div>
+							<p>
+								Para que estudiemos su caso y podamos hacerle una propuesta a medida. <br>
+								Respondemos en un plazo de 12 a 24 horas, puede contactarnos llenando el formulario, además por correo o Vía telefónica.
+							</p>
+							
+						</div>
+					</div>
+					
+				</div>						
+				
+				<div class="form-style-2">
+					<form class="contact-form" action="" method="post" id="formEmail">
+						<div class="row m-bottom-40">
+							<div class="col-lg-4">
+								<div class="form-group">
+									<input class="input-styled" name="nombre" type="text" placeholder="nombre completo *" id="name" required>
+								</div>
+							</div>
+							<div class="col-lg-4">
+								<div class="form-group">
+									<input class="input-styled" name="email" type="email" placeholder="Correo *" id="email" required>
+								</div>
+							</div>
+							<div class="col-lg-4">
+								<div class="form-group">
+									<input class="input-styled" name="asunto" type="text" placeholder="Asunto *" id="subject" required>
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<textarea class="input-styled" name="consulta" id="message"  rows="10" placeholder="Mensaje *" required></textarea>
+						</div>
+						<div class="text-center" style="margin-top: 40px;">
+
+							<div id="captcha" class="captcha"></div>
+							<div class="restart">
+							<a href="#" onclick="createCaptcha()">CAMBIAR</a>
+							</div>
+
+							<div class="input-cap">
+
+								<div>Por favor, Ingrese el código Siguiente para continuar</div>
+								<input
+								  type="text"
+								  name="reCaptcha"
+								  id="reCaptcha"
+								  maxlength="6"
+								  onkeyup="validateCaptcha()"
+								  placeholder="Ingresé código Captcha"
+								/>
+							  </div>
+							
+
+							  <div id="errCaptcha" class="errmsg"></div>
+							
+							  <div id="byProblem" class="errmsg"></div>
+
+							<button type="button" class="button button-secondary rounded" id="btnEnviar" onclick="sendEmail()">Enviar</button>
+						</div>
+					</form>
+				</div>
+
+			</div>
+		</section>
+	</div>
+	<!-- End Content -->
+
+	<section class="business-steps">		
+		<div class="row no-gutters">
+			<div class="col-md-4">
+				<div class="article-with-overlay-1">
+					<div class="thumbnail animate-zoom">
+						<img src="../images/business-step-1.png" alt="">
+					</div>
+					<a href="contact-us.html#">
+						<div class="overlay overlay-fill d-flex flex-column justify-content-center">
+							<div class="overlay-content text-center">
+								Corporate <span class="color-primary">Ledership</span>
+							</div>
+						</div>	
+					</a>					
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="article-with-overlay-1">
+					<div class="thumbnail animate-zoom">
+						<img src="../images/business-step-2.png" alt="">
+					</div>
+					<a href="contact-us.html#">
+						<div class="overlay overlay-fill d-flex flex-column justify-content-center">
+							<div class="overlay-content text-center">
+								Market <span class="color-primary">Analysis</span>
+							</div>
+						</div>	
+					</a>					
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="article-with-overlay-1">
+					<div class="thumbnail animate-zoom">
+						<img src="../images/business-step-3.png" alt="">
+					</div>
+					<a href="contact-us.html#">
+						<div class="overlay overlay-fill d-flex flex-column justify-content-center">
+							<div class="overlay-content text-center">
+								Financial <span class="color-primary">planing</span>
+							</div>
+						</div>	
+					</a>					
+				</div>
+			</div>
+		</div>		
+	</section>	
+
+	<!-- Footer -->
+	<footer id="footer" class="footer-1">
+		<div class="overlay">
+			<div class="container">
+				<div class="inner-content">
+					<div class="row">
+						<div class="col-md-6 col-lg-3">
+							<div class="widget">
+								
+								<img src="images/logo.png" alt=""><br><br>
+								<div class="widget-text">
+									<p>
+										Nos especializamos en técnicas aplicadas en estudios de calidad, estrategia y proyectos sociales innovadores.
+									</p>
+								</div>
+								<!--<div class="search-form">
+									<form action="index.html">
+										<div class="form-group-with-button">
+											<input class="form-element-styled form-group-input" type="search" name="s" placeholder="Enter your Email">
+											<button class="form-group-button background-primary color-inverse animate-300 hover-background-secondary" type="submit"><i class="fa fa-angle-right"></i></button>
+										</div>										
+									</form>
+								</div>-->
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-3">
+							<div class="widget">
+								<h3 class="widget-title">Menú Rápido</h3>
+								<div class="widget-menu-1">
+									<ul class="no-style">
+										<li class="animate-300 hover-color-primary">
+											<a href="proyectos-ad-hoc.html" class="no-color">Proyectos Ad-hoc </a>
+										</li>
+										<li class="animate-300 hover-color-primary">
+											<a href="calidad-y-confiabilidad.html" class="no-color">Calidad y Confidencialidad </a>
+										</li>
+										<li class="animate-300 hover-color-primary">
+											<a href="proyectos-sociales.html" class="no-color">Proyectos Sociales </a>
+										</li>
+										<li class="animate-300 hover-color-primary">
+											<a href="proyectos-de-calidad.html" class="no-color">Investigación en Calidad y Mercados</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-3">
+							<div class="widget">
+								<h3 class="widget-title">Contáctanos</h3>
+								<div class="widget-contact-infomation">
+									<ul class="no-style">
+										<li class="d-flex">
+											<div class="icon color-secondary">
+												<i class="flaticon-phone-call"></i>
+											</div>
+											<div class="flex-fill">
+												<div class="item-lb">Teléfono</div>
+												<div class="item-text">
+													<a class="no-color" href="tel:1234567890">5563-8518 / 5615-7011</a>
+												</div>
+											</div>
+										</li>
+										<li class="d-flex">
+											<div class="icon color-secondary">
+												<i class="flaticon-clock"></i>
+											</div>
+											<div class="flex-fill">
+												<div class="item-lb">Correo</div>
+												<div class="item-text">
+													<a class="no-color" href="mailto:gloria@probabilistica.net">
+													gloria@probabilistica.net</a>
+												</div>
+											</div>
+										</li>
+										<li class="d-flex">
+											<div class="icon color-secondary">
+												<i class="flaticon-map-pin-silhouette"></i>
+											</div>
+											<div class="flex-fill">
+												<div class="item-lb">Dirección</div>
+												<div class="item-text">
+													<a class="no-color" href="index.html#">
+														Félix Parra 36, Col. San José Insurgentes,<br> CDMX, C.P. 03900
+													</a>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!--<div class="col-md-6 col-lg-3">
+							<div class="widget widget-flickr">
+								<h3 class="widget-title">Flickr Photos</h3>
+								<img src="../images/flickr-imgs.png" alt="">
+							</div>
+						</div>-->
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- /Footer -->
+	
+	<!-- Copyright -->
+	<div class="copyright text-center">
+		<div class="container">
+			<a href="index.html#" class="color-secondary">Probabilística</a> - Copyright 2019. -  Realizado por <a href="https://masclientes.mx" class="color-secondary">Masclientes.mx</a>
+		</div>
+	</div>
+	<!-- /Copyright -->
+
+</div>
+
+<script>
+
+
+	/*disabled button*/
+	var btnEnviar = document.getElementById('btnEnviar');
+
+	/*Clear firt time*/
+	
+
+	if (btnEnviar != undefined)
+	{
+		btnEnviar.disabled = true;
+		
+	}
+
+	function sendEmail() {
+
+
+		/*for data*/
+		var name = document.getElementById('name');
+		var email = document.getElementById('email');
+		var subject = document.getElementById('subject');
+		var message = document.getElementById('message');
+
+		
+		var formCorreo = document.getElementById("formEmail");
+		formCorreo.action= "envia.php";
+		formCorreo.submit();
+		
+
+		clearInputCode();
+
+	}
+
+	function clearInputCode() {
+		var txtcode = document.getElementById("reCaptcha");
+		txtcode.value = "";
+		btnEnviar.disabled = true;
+		createCaptcha();
+	}
+
+	
+
+	let captcha = new Array();
+
+	function createCaptcha() {
+		const activeCaptcha = document.getElementById("captcha");
+		for (q = 0; q < 6; q++) {
+			if (q % 2 == 0) {
+			captcha[q] = String.fromCharCode(Math.floor(Math.random() * 26 + 65));
+			} else {
+			captcha[q] = Math.floor(Math.random() * 10 + 0);
+			}
+		}
+		theCaptcha = captcha.join("");
+		activeCaptcha.innerHTML = `${theCaptcha}`;
+	}
+
+	function validateFields(type) {
+
+		var name = document.getElementById('name');
+		var email = document.getElementById('email');
+		var subject = document.getElementById('subject');
+		var message = document.getElementById('message');
+		var byProblem = document.getElementById('byProblem')
+
+		var messageError = "";
+
+		switch (type) {
+			case 1:
+				
+				if (name != undefined && name.value.length == 0)
+				{
+					messageError = "No ingresó su nombre";
+				}
+				
+				break;
+
+			case 2:
+				
+				if (email != undefined && email.value.length == 0)
+				{
+					messageError = "No ingresó su correo";
+				}
+				
+				break;
+			case 3:
+				
+				if (subject != undefined && subject.value.length == 0)
+				{
+					messageError = "No ingresó el asunto";
+				}
+				
+				break;
+
+			case 3:
+				
+				if (message != undefined && message.value.length == 0)
+				{
+					messageError = "No ingresó el mensaje";
+				}
+				
+				break;
+		
+			default:
+				break;
+		}
+
+		byProblem.value = messageError;
+
+	}
+
+	function validateCaptcha() {
+  		const errCaptcha = document.getElementById("errCaptcha");
+		const reCaptcha = document.getElementById("reCaptcha");
+		recaptcha = reCaptcha.value;
+
+		
+		let validateCaptcha = 0;
+		for (var z = 0; z < 6; z++) {
+			if (recaptcha.charAt(z) != captcha[z]) {
+			validateCaptcha++;
+			}
+		}
+
+		if (recaptcha == "") {
+			
+		} else if (validateCaptcha == 0 && recaptcha.length > 6) {
+			errCaptcha.innerHTML = "Son muchos caracteres";
+		} else if (validateCaptcha > 0 && recaptcha.length == 6) {
+			errCaptcha.innerHTML = "Código Incorrecto!, intente nuevamente";
+		} else {
+			btnEnviar.disabled = true;
+			errCaptcha.innerHTML = "";
+			if (recaptcha.length == 6)
+			{
+				btnEnviar.disabled = false;
+				errCaptcha.innerHTML = "Bien!";
+			}
+			
+			
+		}
+		
+	}
+
+	createCaptcha();
+	clearInputCode();
+
+
+</script>
+
+<style>
+
+.input-cap {
+	margin: 1rem;
+}
+.layout-1 .button-secondary:disabled {
+	background-color: #98aab5;
+}
+
+#captcha {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2em;
+    padding: 3px;
+    border-radius: 5px;
+    text-decoration: underline;
+    color: #3e1717;
+}
+</style>
+
+</body>
+</html>

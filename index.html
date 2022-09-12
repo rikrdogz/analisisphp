@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Probabilística</title>
+
+	<meta charset="utf-8">	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+	<!--<link rel="stylesheet" href="../assets/fonts/font-awesome/css/font-awesome.min.css">-->
+	<link rel="stylesheet" href="assets/fonts/flaticon/flaticon.css">
+	
+	<!-- Vendor css -->
+	<link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">	
+	<link rel="stylesheet" href="assets/vendor/owl-carousel/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="assets/vendor/owl-carousel/assets/owl.theme.default.min.css">
+	<link rel="stylesheet" href="assets/vendor/magnific-popup/magnific-popup.css">
+
+	<!-- Core css -->
+	<link rel="stylesheet" href="assets/css/ronby.css">
+	<link rel="stylesheet" href="assets/css/styles.css">
+
+	<!-- Vendor js -->
+	<script src="assets/js/jquery-3.3.1.min.js"></script>
+	<script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+	<script src="assets/vendor/owl-carousel/owl.carousel.min.js"></script>
+	<script src="assets/vendor/masonry/masonry.pkgd.min.js"></script>
+	<script src="assets/vendor/isotope/isotope.pkgd.min.js"></script>
+	<script src="assets/vendor/jquery-countdown/jquery.countdown.min.js"></script>
+	<script src="assets/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+	<!-- Core js -->
+	<script src="assets/js/ronby.js"></script>
+	<script src="assets/js/counterUp.js"></script>
+
+	<!-- Others -->
+
+		<!-- REVOLUTION STYLE SHEETS -->
+		<link rel="stylesheet" type="text/css" href="assets/vendor/revslider/css/settings.css">
+		<!-- REVOLUTION LAYERS STYLES -->
+		<link rel="stylesheet" type="text/css" href="assets/vendor/revslider/css/layers.css">
+		<!-- REVOLUTION NAVIGATION STYLES -->
+		<link rel="stylesheet" type="text/css" href="assets/vendor/revslider/css/navigation.css">
+
+				
+		<!-- REVOLUTION JS FILES -->
+		<script type="text/javascript" src="assets/vendor/revslider/js/jquery.themepunch.tools.min.js"></script>
+		<script type="text/javascript" src="assets/vendor/revslider/js/jquery.themepunch.revolution.min.js"></script>
+
+		<!-- Slider Revolution extension scripts. ONLY NEEDED FOR LOCAL TESTING --> 
+		<script type="text/javascript" src="assets/vendor/revslider/js/extensions/revolution.extension.actions.min.js"></script>
+		<script type="text/javascript" src="assets/vendor/revslider/js/extensions/revolution.extension.carousel.min.js"></script>
+		<script type="text/javascript" src="assets/vendor/revslider/js/extensions/revolution.extension.kenburn.min.js"></script>
+		<script type="text/javascript" src="assets/vendor/revslider/js/extensions/revolution.extension.layeranimation.min.js"></script>
+		<script type="text/javascript" src="assets/vendor/revslider/js/extensions/revolution.extension.migration.min.js"></script>
+		<script type="text/javascript" src="assets/vendor/revslider/js/extensions/revolution.extension.navigation.min.js"></script>
+		<script type="text/javascript" src="assets/vendor/revslider/js/extensions/revolution.extension.parallax.min.js"></script>
+		<script type="text/javascript" src="assets/vendor/revslider/js/extensions/revolution.extension.slideanims.min.js"></script>
+		<script type="text/javascript" src="assets/vendor/revslider/js/extensions/revolution.extension.video.min.js"></script>
+</head>
+
+<body class="layout-1">
+
+<div id="wrapper">
+
+	<!-- Nav mobile -->
+		<nav class="nav-mobile d-lg-none navbar navbar-expand-lg navbar-light">
+			<a class="navbar-brand d-lg-none" href="index.html#">
+				<img src="images/logo.png" alt="">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-toggle-nav" aria-controls="mobile-toggle-nav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="mobile-toggle-nav">
+				<div class="menu-mobile">
+				
+				
+					<ul class="no-style menu navbar-nav">
+						<li class="dropdown">
+							<a href="nuestra-empresa.html" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Nuestra Empresa</a>
+							<ul class="sub-menu dropdown-menu">
+								<li class="submenu-item">
+									<a href="quien-somos.html">¿Quienes Somos?</a>
+								</li>
+								<li class="submenu-item">
+									<a href="origen.html">Origen</a>
+								</li>
+								<li class="submenu-item">
+									<a href="nuestra-gente.html">Nuestra Gente</a>
+								</li>
+								<li class="submenu-item">
+									<a href="socios-de-negocios.html">Socios de Negocios</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Conocimientos</a>
+							<ul class="sub-menu dropdown-menu">
+								<li class="submenu-item">
+									<a href="proyectos-ad-hoc.html">Proyectos Ad-hoc</a>
+								</li>
+								<li class="submenu-item">
+									<a href="calidad-y-confiabilidad.html">Calidad y Confiabilidad</a>
+								</li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="soluciones.html" >Soluciones</a>	
+							
+						</li>		
+						<li class="dropdown">
+							<a href="proyectos.html" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Proyectos</a>
+							<ul class="sub-menu dropdown-menu">
+								<li class="submenu-item">
+									<a href="proyectos-sociales.html">Proyectos Sociales</a>
+								</li>
+								<li class="submenu-item">
+									<a href="proyectos-de-calidad.html"> Investigación en Calidad y Mercados</a>
+								</li>
+                                <li class="submenu-item">
+								    <a href="encuestas-publicas.html">Encuestas Públicas</a>
+								</li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="contacto.html" >Contacto</a>
+							
+						</li>
+						<li class="dropdown">
+							<a href="aviso.html" >Aviso de Privacidad</a>
+							
+						</li>
+
+
+					</ul>
+				</div>					
+			</div>
+		</nav>
+	<!-- /Nav mobile -->
+
+	<!-- Header -->
+	<div id="header" class="header-1">
+
+		<div class="hidden-search-form">
+			<div class="overlay-absolute">
+				<div class="search-form">
+					<div class="text-right">
+						<span class="form-close">
+							<i class="fa fa-times-circle"></i>
+						</span>
+					</div>
+					<form action="index.html">
+						<div class="form-group-with-button">
+							<input class="form-element-styled form-group-input" type="search" name="s" placeholder="Enter keywords">
+							<button class="form-group-button background-primary color-inverse" type="submit"><i class="fa fa-search"></i></button>
+						</div>										
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<!-- Header top -->
+		<div class="header-top d-none d-xl-block">
+			<div class="container">			
+				<div class="row flex-wrap align-items-center justify-content-between">
+					<div class="col-auto">
+						<!--<ul class="list-contact-infomations no-style items-inline-block">
+							<li>
+								<a href="tel:55638518" class="no-color">
+									<i class="fa fa-phone" aria-hidden="true"></i> 5563-8518 / 5615-7011
+								</a>
+							</li>
+							<li>
+								<a href="mailto: gloria@probabilistica.net" class="no-color">
+									<i class="fa fa-envelope"></i> gloria@probabilistica.net
+								</a>
+							</li>
+							<li>
+								<a href="index.html#" class="no-color">
+									<i class="fa fa-map-marker"></i> Félix Parra 36, Col. San José Insurgentes, CDMX
+								</a>
+							</li>
+						</ul>-->
+					</div>
+					<!--<div class="col-lg-auto d-none d-lg-block">						
+						<div class="social-1">
+							<ul class="no-style items-inline-block">
+								<li class="animate-200 hover-background-secondary hover-color-white">
+									<a href="index.html#" class="no-color">
+										<i class="fa fa-facebook-f"></i>
+									</a>
+								</li>
+								<li class="animate-200 hover-background-secondary hover-color-white">
+									<a href="index.html#" class="no-color">
+										<i class="fa fa-twitter"></i>
+									</a>
+								</li>
+								<li class="animate-200 hover-background-secondary hover-color-white">
+									<a href="index.html#" class="no-color">
+										<i class="fa fa-google-plus"></i>
+									</a>
+								</li>
+								<li class="animate-200 hover-background-secondary hover-color-white">
+									<a href="index.html#" class="no-color">
+										<i class="fa fa-linkedin"></i>
+									</a>
+								</li>
+							</ul>
+						</div>						
+					</div>-->
+				</div>
+			</div>
+		</div>
+		<!-- /Header top -->
+
+		<!-- Header nav -->
+		<div class="header-nav">
+			<div class="container">
+				<div class="row flex-wrap align-items-center d-none d-lg-flex">
+					<div class="col-auto mr-auto">
+						<div class="logo">
+							<a href="index.html">
+								<img src="images/logo.png" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="col-auto">
+						<div class="main-menu">						
+							<ul class="menu clearfix">
+								
+								<li class="menu-item">
+									<a href="nuestra-empresa.html">Nuestra Empresa</a>
+									<ul class="sub-menu">
+										<li class="submenu-item">
+											<a href="quien-somos.html">¿Quienes Somos?</a>
+										</li>
+										<li class="submenu-item">
+											<a href="origen.html">Origen</a>
+										</li>
+										<li class="submenu-item">
+											<a href="nuestra-gente.html">Nuestra Gente</a>
+										</li>
+										<li class="submenu-item">
+											<a href="socios-de-negocios.html">Socios de  Negocio</a>
+										</li>
+									</ul>
+								</li>
+								<li class="menu-item menu-item-has-children">
+									<a href="#">Conocimiento</a>	
+									<ul class="sub-menu">
+										<li class="submenu-item">
+											<a href="proyectos-ad-hoc.html">Proyectos Ad-hoc</a>
+										</li>
+										<li class="submenu-item">
+											<a href="calidad-y-confiabilidad.html">Calidad y Confidencialidad</a>
+										</li>
+									</ul>
+								</li>		
+								<li class="menu-item menu-item-has-children">
+									<a href="soluciones.html">Soluciones</a>
+									</li>
+									
+								<li class="menu-item menu-item-has-children">
+									<a href="proyectos.html#">Proyectos</a>
+									<ul class="sub-menu">
+										<li class="submenu-item">
+											<a href="proyectos-sociales.html">Proyectos Sociales</a>
+										</li>
+										<li class="submenu-item">
+											<a href="proyectos-de-calidad.html">Investigación en Calidad y Mercados</a>
+										</li>
+                                        <li class="submenu-item">
+											<a href="encuestas-publicas.html">Encuestas Públicas</a>
+										</li>
+									</ul>
+								</li>
+								<li class="menu-item menu-item-has-children">
+									<a href="contacto.html">Contacto</a>
+								</li>
+								<li class="menu-item menu-item-has-children">
+									<a href="aviso.html">Aviso de Privacidad</a>
+									
+								</li>
+								
+							</ul>
+						</div>	
+						
+					</div>
+					
+				</div>
+
+					
+			</div>
+		</div>
+		<!-- /Header nav -->			
+
+	</div>
+	<!-- /Header -->
+	
+	<!-- Slider -->
+		<div class="rev_slider_wrapper" style="height: : 450px;">	 
+		    <div id="rev_slider_1" class="rev_slider" data-version="5.4.5" style="display:none;" >	 
+		        <ul>
+		        	<li data-transition="fade">
+	                	
+	                	<!-- MAIN IMAGE -->
+	                	<img src="images/rev-slide-1.jpg"  alt=""  width="1920" height="1280">							
+
+	                	<div class="tp-caption tp-resizeme" 
+	                	 
+	                	     data-frames='[{"delay": 0, "speed": 0}]' 
+	                	 
+	                	     data-x="center" 
+	                	     data-y="center" 
+	                	     data-hoffset="0" 
+	                	     data-voffset="0" 
+	                	     data-width="['19200']"
+	                	     data-height="['8000']"
+	                	     style="background: #0c375db8;">                	 	
+	                	</div>
+	        			
+
+	    				<div class="tp-caption  tp-resizeme " 
+	        				 id="slide-1-layer-3" 
+	        				 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+	        				 data-y="['center','center','center','center']" data-voffset="['-80','0','0','0']" 
+	    							data-fontsize="['50','50','50','50']"
+	        				data-lineheight="['65','60','50','40']"
+	        				data-width="['800','800','800','800']"
+	        				data-height="none"
+	        				
+	        				data-type="text" 
+	        				data-responsive_offset="on" 
+
+	        				data-frames='[{"from":"y:50px;opacity:0;","speed":2500,"to":"o:1;","delay":250,"ease":"Power4.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]'
+	        				data-textAlign="['center','center','center','center']"
+	        				data-paddingtop="[0,0,0,0]"
+	        				data-paddingright="[0,0,0,0]"
+	        				data-paddingbottom="[0,0,0,0]"
+	        				data-paddingleft="[0,0,0,0]"
+
+	        				style="font-family: 'Montserrat'; white-space: nowrap; color: white;text-transform: uppercase;
+	        				font-variant-position: 20px;font-weight: bold;">PROBABILÍSTICA
+	        			</div>
+
+	        			<div class="tp-caption  tp-resizeme " 
+	        				 id="slide-1-layer-3" 
+	        				 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+	        				 data-y="['center','center','center','center']" data-voffset="['-20','0','0','0']" 
+	    							data-fontsize="['30','30','30','30']"
+	        				data-lineheight="['65','60','50','40']"
+	        				data-width="['800','800','800','800']"
+	        				data-height="none"
+	        				
+	        				data-type="text" 
+	        				data-responsive_offset="on" 
+
+	        				data-frames='[{"from":"y:50px;opacity:0;","speed":2500,"to":"o:1;","delay":250,"ease":"Power4.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]'
+	        				data-textAlign="['center','center','center','center']"
+	        				data-paddingtop="[0,0,0,0]"
+	        				data-paddingright="[0,0,0,0]"
+	        				data-paddingbottom="[0,0,0,0]"
+	        				data-paddingleft="[0,0,0,0]"
+
+	        				style="font-family: 'Montserrat'; white-space: nowrap; color: white;text-transform: uppercase;
+	        				font-variant-position: 20px;font-weight: bold;color: #94c6dd;">Es una empresa mexicana especializada en 
+	        			</div>
+
+	        			<div class="tp-caption  tp-resizeme " 
+	        				 id="slide-1-layer-3" 
+	        				 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+	        				 data-y="['center','center','center','center']" data-voffset="['60','0','0','0']" 
+	    							data-fontsize="['18','18','18','18']"
+	        				data-lineheight="['30','30','30','30']"
+	        				data-width="['800','800','800','800']"
+	        				data-height="none"
+	        				
+	        				data-type="text" 
+	        				data-responsive_offset="on" 
+
+	        				data-frames='[{"from":"y:50px;opacity:0;","speed":2500,"to":"o:1;","delay":250,"ease":"Power4.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]'
+	        				data-textAlign="['center','center','center','center']"
+	        				data-paddingtop="[0,0,0,0]"
+	        				data-paddingright="[0,0,0,0]"
+	        				data-paddingbottom="[0,0,0,0]"
+	        				data-paddingleft="[0,0,0,0]"
+
+	        				style="font-family: 'Montserrat'; white-space: nowrap; color: white;
+	        				font-variant-position: 20px;">
+	        				Investigación de mercados, consultoría de opinión y análisis estadístico.<br> Nuestro objetivo es generar información valiosa para proyectos sociales y privados.
+
+	        			</div>
+
+	        			<!--<div class="tp-caption  tp-resizeme " 
+	        				 id="slide-1-layer-3" 
+	        				 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+	        				 data-y="['center','center','center','center']" data-voffset="['160','0','0','0']" 
+	    							data-fontsize="['13','13','13','13']"
+	        				data-lineheight="['30','30','30','30']"
+	        				data-width="['800','800','800','800']"
+	        				data-height="none"
+	        				
+	        				data-type="text" 
+	        				data-responsive_offset="on" 
+
+	        				data-frames='[{"from":"y:50px;opacity:0;","speed":2500,"to":"o:1;","delay":250,"ease":"Power4.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]'
+	        				data-textAlign="['center','center','center','center']"
+	        				data-paddingtop="[0,0,0,0]"
+	        				data-paddingright="[0,0,0,0]"
+	        				data-paddingbottom="[0,0,0,0]"
+	        				data-paddingleft="[0,0,0,0]"
+
+	        				style="font-family: 'Montserrat'; white-space: nowrap; color: white;
+	        				font-variant-position: 20px;text-align: center;">
+	        				<a href="index.html#" class="button button-primary rounded-capsule" style="font-size:21px;"><span>Leer más</span></a>
+	        				<a href="index.html#" class="button button-secondary rounded-capsule" style="font-size:18px;">Servicios</a>
+	        			</div>-->
+	            	</li>
+	            	<li data-transition="fadein">
+	                	
+	                	<!-- MAIN IMAGE -->
+	                	<img src="../images/rev-slide-2.jpg"  alt=""  width="1920" height="380">							
+
+	                	<div class="tp-caption tp-resizeme" 
+	                	 
+	                	     data-frames='[{"delay": 0, "speed": 0}]' 
+	                	 
+	                	     data-x="center" 
+	                	     data-y="center" 
+	                	     data-hoffset="0" 
+	                	     data-voffset="0" 
+	                	     data-width="['1920']"
+	                	     data-height="['800']"
+	                	     style="background: #0c375db8;">                	 	
+	                	</div>
+	        			
+
+	    				<div class="tp-caption  tp-resizeme " 
+	        				 id="slide-1-layer-3" 
+	        				 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+	        				 data-y="['center','center','center','center']" data-voffset="['-80','0','0','0']" 
+	    							data-fontsize="['50','50','50','50']"
+	        				data-lineheight="['65','60','50','40']"
+	        				data-width="['800','800','800','800']"
+	        				data-height="none"
+	        				
+	        				data-type="text" 
+	        				data-responsive_offset="on" 
+
+	        				data-frames='[{"from":"y:50px;opacity:0;","speed":2500,"to":"o:1;","delay":250,"ease":"Power4.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]'
+	        				data-textAlign="['center','center','center','center']"
+	        				data-paddingtop="[0,0,0,0]"
+	        				data-paddingright="[0,0,0,0]"
+	        				data-paddingbottom="[0,0,0,0]"
+	        				data-paddingleft="[0,0,0,0]"
+
+	        				style="font-family: 'Montserrat'; white-space: nowrap; color: white;text-transform: uppercase;
+	        				font-variant-position: 20px;font-weight: bold;">Trabajamos para
+	        			</div>
+
+	        			<div class="tp-caption  tp-resizeme " 
+	        				 id="slide-1-layer-3" 
+	        				 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+	        				 data-y="['center','center','center','center']" data-voffset="['-20','0','0','0']" 
+	    							data-fontsize="['30','30','30','30']"
+	        				data-lineheight="['65','60','50','40']"
+	        				data-width="['800','800','800','800']"
+	        				data-height="none"
+	        				
+	        				data-type="text" 
+	        				data-responsive_offset="on" 
+
+	        				data-frames='[{"from":"y:50px;opacity:0;","speed":2500,"to":"o:1;","delay":250,"ease":"Power4.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]'
+	        				data-textAlign="['center','center','center','center']"
+	        				data-paddingtop="[0,0,0,0]"
+	        				data-paddingright="[0,0,0,0]"
+	        				data-paddingbottom="[0,0,0,0]"
+	        				data-paddingleft="[0,0,0,0]"
+
+	        				style="font-family: 'Montserrat'; white-space: nowrap; color: white;text-transform: uppercase;
+	        				font-variant-position: 20px;font-weight: bold;color: #94c6dd;"> generar información de calidad y verificada
+	        			</div>
+
+	        			<div class="tp-caption  tp-resizeme " 
+	        				 id="slide-1-layer-3" 
+	        				 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+	        				 data-y="['center','center','center','center']" data-voffset="['60','0','0','0']" 
+	    							data-fontsize="['18','18','18','18']"
+	        				data-lineheight="['30','30','30','30']"
+	        				data-width="['800','800','800','800']"
+	        				data-height="none"
+	        				
+	        				data-type="text" 
+	        				data-responsive_offset="on" 
+
+	        				data-frames='[{"from":"y:50px;opacity:0;","speed":2500,"to":"o:1;","delay":250,"ease":"Power4.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]'
+	        				data-textAlign="['center','center','center','center']"
+	        				data-paddingtop="[0,0,0,0]"
+	        				data-paddingright="[0,0,0,0]"
+	        				data-paddingbottom="[0,0,0,0]"
+	        				data-paddingleft="[0,0,0,0]"
+
+	        				style="font-family: 'Montserrat'; white-space: nowrap; color: white;
+	        				font-variant-position: 20px;">
+	        				Lo que logramos con validación y auditoría detallada y comprobables de la data recabada.
+	        			</div>
+
+	        			<!--<div class="tp-caption  tp-resizeme " 
+	        				 id="slide-1-layer-3" 
+	        				 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+	        				 data-y="['center','center','center','center']" data-voffset="['160','0','0','0']" 
+	    							data-fontsize="['13','13','13','13']"
+	        				data-lineheight="['30','30','30','30']"
+	        				data-width="['800','800','800','800']"
+	        				data-height="none"
+	        				
+	        				data-type="text" 
+	        				data-responsive_offset="on" 
+
+	        				data-frames='[{"from":"y:50px;opacity:0;","speed":2500,"to":"o:1;","delay":250,"ease":"Power4.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]'
+	        				data-textAlign="['center','center','center','center']"
+	        				data-paddingtop="[0,0,0,0]"
+	        				data-paddingright="[0,0,0,0]"
+	        				data-paddingbottom="[0,0,0,0]"
+	        				data-paddingleft="[0,0,0,0]"
+
+	        				style="font-family: 'Montserrat'; white-space: nowrap; color: white;
+	        				font-variant-position: 20px;text-align: center;">
+	        				<a href="index.html#" class="button button-primary rounded-capsule" style="font-size:21px;"><span>Leer más</span></a>
+	        				<a href="index.html#" class="button button-secondary rounded-capsule" style="font-size:18px;">Servicios</a>
+	        			</div>-->
+	            	</li>
+	            	
+	            	
+	            	
+	            		            	<li data-transition="fadein">
+	                	
+	                	<!-- MAIN IMAGE -->
+	                	<img src="../images/rev-slide-3.jpg"  alt=""  width="1920" height="1280">							
+
+	                	<div class="tp-caption tp-resizeme" 
+	                	 
+	                	     data-frames='[{"delay": 0, "speed": 0}]' 
+	                	 
+	                	     data-x="center" 
+	                	     data-y="center" 
+	                	     data-hoffset="0" 
+	                	     data-voffset="0" 
+	                	     data-width="['1920']"
+	                	     data-height="['800']"
+	                	     style="background: #0c375db8;">                	 	
+	                	</div>
+	        			
+
+	    				<div class="tp-caption  tp-resizeme " 
+	        				 id="slide-1-layer-3" 
+	        				 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+	        				 data-y="['center','center','center','center']" data-voffset="['-80','0','0','0']" 
+	    							data-fontsize="['50','50','50','50']"
+	        				data-lineheight="['65','60','50','40']"
+	        				data-width="['800','800','800','800']"
+	        				data-height="none"
+	        				
+	        				data-type="text" 
+	        				data-responsive_offset="on" 
+
+	        				data-frames='[{"from":"y:50px;opacity:0;","speed":2500,"to":"o:1;","delay":250,"ease":"Power4.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]'
+	        				data-textAlign="['center','center','center','center']"
+	        				data-paddingtop="[0,0,0,0]"
+	        				data-paddingright="[0,0,0,0]"
+	        				data-paddingbottom="[0,0,0,0]"
+	        				data-paddingleft="[0,0,0,0]"
+
+	        				style="font-family: 'Montserrat'; white-space: nowrap; color: white;text-transform: uppercase;
+	        				font-variant-position: 20px;font-weight: bold;">Más de 14 años de experiencia
+	        			</div>
+
+	        			<div class="tp-caption  tp-resizeme " 
+	        				 id="slide-1-layer-3" 
+	        				 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+	        				 data-y="['center','center','center','center']" data-voffset="['-20','0','0','0']" 
+	    							data-fontsize="['30','30','30','30']"
+	        				data-lineheight="['65','60','50','40']"
+	        				data-width="['800','800','800','800']"
+	        				data-height="none"
+	        				
+	        				data-type="text" 
+	        				data-responsive_offset="on" 
+
+	        				data-frames='[{"from":"y:50px;opacity:0;","speed":2500,"to":"o:1;","delay":250,"ease":"Power4.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]'
+	        				data-textAlign="['center','center','center','center']"
+	        				data-paddingtop="[0,0,0,0]"
+	        				data-paddingright="[0,0,0,0]"
+	        				data-paddingbottom="[0,0,0,0]"
+	        				data-paddingleft="[0,0,0,0]"
+
+	        				style="font-family: 'Montserrat'; white-space: nowrap; color: white;text-transform: uppercase;
+	        				font-variant-position: 20px;font-weight: bold;color: #94c6dd;">Mantenemos los más altos estándares de calidad 
+	        			</div>
+
+	        			<div class="tp-caption  tp-resizeme " 
+	        				 id="slide-1-layer-3" 
+	        				 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+	        				 data-y="['center','center','center','center']" data-voffset="['60','0','0','0']" 
+	    							data-fontsize="['18','18','18','18']"
+	        				data-lineheight="['30','30','30','30']"
+	        				data-width="['800','800','800','800']"
+	        				data-height="none"
+	        				
+	        				data-type="text" 
+	        				data-responsive_offset="on" 
+
+	        				data-frames='[{"from":"y:50px;opacity:0;","speed":2500,"to":"o:1;","delay":250,"ease":"Power4.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]'
+	        				data-textAlign="['center','center','center','center']"
+	        				data-paddingtop="[0,0,0,0]"
+	        				data-paddingright="[0,0,0,0]"
+	        				data-paddingbottom="[0,0,0,0]"
+	        				data-paddingleft="[0,0,0,0]"
+
+	        				style="font-family: 'Montserrat'; white-space: nowrap; color: white;
+	        				font-variant-position: 20px;">
+	        				Probabilística ha construido una trayectoria de innovación a través de diseño<br> y análisis de encuestas Nos gusta y siempre buscamos tener impacto en los proyectos sociales<br> y privados en que trabajamos.
+
+	        			</div>
+
+	        			<!--<div class="tp-caption  tp-resizeme " 
+	        				 id="slide-1-layer-3" 
+	        				 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+	        				 data-y="['center','center','center','center']" data-voffset="['160','0','0','0']" 
+	    							data-fontsize="['13','13','13','13']"
+	        				data-lineheight="['30','30','30','30']"
+	        				data-width="['800','800','800','800']"
+	        				data-height="none"
+	        				
+	        				data-type="text" 
+	        				data-responsive_offset="on" 
+
+	        				data-frames='[{"from":"y:50px;opacity:0;","speed":2500,"to":"o:1;","delay":250,"ease":"Power4.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]'
+	        				data-textAlign="['center','center','center','center']"
+	        				data-paddingtop="[0,0,0,0]"
+	        				data-paddingright="[0,0,0,0]"
+	        				data-paddingbottom="[0,0,0,0]"
+	        				data-paddingleft="[0,0,0,0]"
+
+	        				style="font-family: 'Montserrat'; white-space: nowrap; color: white;
+	        				font-variant-position: 20px;text-align: center;">
+	        				<a href="index.html#" class="button button-primary rounded-capsule" style="font-size:21px;"><span>Leer Más</span></a>
+	        				<a href="index.html#" class="button button-secondary rounded-capsule" style="font-size:18px;">Servicios</a>
+	        			</div>-->
+	            	</li>
+	            	
+	            	
+	            	
+	            	
+	            	
+	            	
+	            	
+	            	
+	            	
+	            	
+	            	
+	            	
+		        </ul>
+		 
+		    </div>	 
+		</div>
+		<script type="text/javascript">	    
+		    jQuery(document).ready(function() {	 	        
+		        jQuery('#rev_slider_1').show().revolution({ 	           
+		            gridwidth: 1920,
+		            gridheight: 500,	 
+		            sliderType:"standard",
+		            sliderLayout:"fullwidth",
+		            delay:9000,
+		            navigation: {
+		            	arrows:{enable:true}				
+		            },		
+		        });
+		    });	 
+		</script>
+	<!-- /Slider -->
+
+	<!-- Content -->
+	<div id="content">
+
+
+
+
+
+		<section style="padding: 100px 0;">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-xl-7">
+						<!-- Section header -->
+						<div class="section-header-style-3">
+							<h2 class="section-title">Nuestra Empresa</h2>
+							<h4 class="section-sub-title color-secondary">Empresa Mexicana Especializada </h4>
+						</div>
+						<!-- /Section header -->
+						<p style="margin-bottom: 30px;">
+							Somos un equipo de especialistas en la investigación y consultoría de opinión apasionados por la calidad y el impacto que la información tiene en proyectos innovadores que ayuden a transformar mercados y áreas sociales.<br>
+							<strong>Nos especializamos en técnicas aplicadas en estudios de calidad, estrategia y proyectos sociales innovadores.</strong>
+						</p>
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="article-box-with-icon-2 d-flex align-items-center">
+									<div class="flex-auto">
+										<a href="index.html#">
+											<div class="coin-icon background-primary color-inverse animate-400 hover-background-secondary">
+												<i class="flaticon-tools"></i>
+											</div>
+										</a>
+									</div>
+									<div class="flex-fill item-content">
+										<div class="item-title">Proyectos Ad-hoc </div>
+										<div class="item-description">
+											Técnicas y estudios ad-hoc en calidad, estrategia y proyectos sociales
+										</div>
+										<a href="proyectos-ad-hoc.html" class="item-link color-secondary animate-300 hover-color-primary">Ver Más <i class="fa fa-chevron-right"></i></a>
+									</div>
+									
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="article-box-with-icon-2 d-flex align-items-center">
+									<div class="flex-auto">
+										<a href="index.html#">
+											<div class="coin-icon background-primary color-inverse animate-400 hover-background-secondary">
+												<i class="flaticon-tools"></i>
+											</div>
+										</a>
+									</div>
+									<div class="flex-fill item-content">
+										<div class="item-title">Calidad y Confidencialidad</div>
+										<div class="item-description">
+											Nos aseguramos de la calidad de los datos que generamos
+										</div>
+										<a href="calidad-y-confiabilidad.html" class="item-link color-secondary animate-300 hover-color-primary">Ver Más<i class="fa fa-chevron-right"></i></a>
+									</div>
+									
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="article-box-with-icon-2 d-flex align-items-center">
+									<div class="flex-auto">
+										<a href="index.html#">
+											<div class="coin-icon background-primary color-inverse animate-400 hover-background-secondary">
+												<i class="flaticon-tools"></i>
+											</div>
+										</a>
+									</div>
+									<div class="flex-fill item-content">
+										<div class="item-title">Proyectos Sociales</div>
+										<div class="item-description">
+											Cada proyecto es una oportunidad para convertirnos en socios de nuestros clientes
+										</div>
+										<a href="proyectos-sociales.html" class="item-link color-secondary animate-300 hover-color-primary">Ver Más <i class="fa fa-chevron-right"></i></a>
+									</div>
+									
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="article-box-with-icon-2 d-flex align-items-center">
+									<div class="flex-auto">
+										<a href="index.html#">
+											<div class="coin-icon background-primary color-inverse animate-400 hover-background-secondary">
+												<i class="flaticon-tools"></i>
+											</div>
+										</a>
+									</div>
+									<div class="flex-fill item-content">
+										<div class="item-title">Investigación en Calidad y Mercados</div>
+										<div class="item-description">
+											Más de 40 mediciones y de forma continua durante más de 10 años.
+										</div>
+										<a href="proyectos-de-calidad.html" class="item-link color-secondary animate-300 hover-color-primary">Ver Más <i class="fa fa-chevron-right"></i></a>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-xl-5">
+						<img src="images/business.png" alt="">
+					</div>
+				</div>
+				
+
+			</div>
+		</section>
+		
+
+
+
+	</div>
+	<!-- End Content -->
+
+	
+	<section class="business-steps">		
+		<div class="row no-gutters">
+			<div class="col-md-4">
+				<div class="article-with-overlay-1">
+					<div class="thumbnail animate-zoom">
+						<img src="images/business-step-1.png" alt="">
+					</div>
+					<a href="proyectos-de-calidad.html">
+						<div class="overlay overlay-fill d-flex flex-column justify-content-center">
+							<div class="overlay-content text-center">
+								Cono<span class="color-primary">cimiento</span>
+							</div>
+						</div>	
+					</a>					
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="article-with-overlay-1">
+					<div class="thumbnail animate-zoom">
+						<img src="images/business-step-2.png" alt="">
+					</div>
+					<a href="soluciones.html">
+						<div class="overlay overlay-fill d-flex flex-column justify-content-center">
+							<div class="overlay-content text-center">
+								Solu<span class="color-primary">ciones</span>
+							</div>
+						</div>	
+					</a>					
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="article-with-overlay-1">
+					<div class="thumbnail animate-zoom">
+						<img src="images/business-step-3.png" alt="">
+					</div>
+					<a href="proyectos.html">
+						<div class="overlay overlay-fill d-flex flex-column justify-content-center">
+							<div class="overlay-content text-center">
+								Pro<span class="color-primary">yectos</span>
+							</div>
+						</div>	
+					</a>					
+				</div>
+			</div>
+		</div>		
+	</section>	
+
+	<!-- Footer -->
+	<footer id="footer" class="footer-1">
+		<div class="overlay">
+			<div class="container">
+				<div class="inner-content">
+					<div class="row">
+						<div class="col-md-6 col-lg-3">
+							<div class="widget">
+								
+								<img src="images/logo.png" alt=""><br><br>
+								<div class="widget-text">
+									<p>
+										Nos especializamos en técnicas aplicadas en estudios de calidad, estrategia y proyectos sociales innovadores.
+									</p>
+								</div>
+								<!--<div class="search-form">
+									<form action="index.html">
+										<div class="form-group-with-button">
+											<input class="form-element-styled form-group-input" type="search" name="s" placeholder="Enter your Email">
+											<button class="form-group-button background-primary color-inverse animate-300 hover-background-secondary" type="submit"><i class="fa fa-angle-right"></i></button>
+										</div>										
+									</form>
+								</div>-->
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-3">
+							<div class="widget">
+								<h3 class="widget-title">Menú Rápido</h3>
+								<div class="widget-menu-1">
+									<ul class="no-style">
+										<li class="animate-300 hover-color-primary">
+											<a href="proyectos-ad-hoc.html" class="no-color">Proyectos Ad-hoc </a>
+										</li>
+										<li class="animate-300 hover-color-primary">
+											<a href="calidad-y-confiabilidad.html" class="no-color">Calidad y Confidencialidad </a>
+										</li>
+										<li class="animate-300 hover-color-primary">
+											<a href="proyectos-sociales.html" class="no-color">Proyectos Sociales </a>
+										</li>
+										<li class="animate-300 hover-color-primary">
+											<a href="proyectos-de-calidad.html" class="no-color">Investigación en Calidad y Mercados</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-3">
+							<div class="widget">
+								<h3 class="widget-title">Contáctanos</h3>
+								<div class="widget-contact-infomation">
+									<ul class="no-style">
+										<li class="d-flex">
+											<div class="icon color-secondary">
+												<i class="flaticon-phone-call"></i>
+											</div>
+											<div class="flex-fill">
+												<div class="item-lb">Teléfono</div>
+												<div class="item-text">
+													<a class="no-color" href="tel:1234567890">5563-8518 / 5615-7011</a>
+												</div>
+											</div>
+										</li>
+										<li class="d-flex">
+											<div class="icon color-secondary">
+												<i class="flaticon-clock"></i>
+											</div>
+											<div class="flex-fill">
+												<div class="item-lb">Correo</div>
+												<div class="item-text">
+													<a class="no-color" href="mailto:gloria@probabilistica.net">
+													gloria@probabilistica.net</a>
+												</div>
+											</div>
+										</li>
+										<li class="d-flex">
+											<div class="icon color-secondary">
+												<i class="flaticon-map-pin-silhouette"></i>
+											</div>
+											<div class="flex-fill">
+												<div class="item-lb">Dirección</div>
+												<div class="item-text">
+													<a class="no-color" href="index.html#">
+														Félix Parra 36, Col. San José Insurgentes,<br> CDMX, C.P. 03900
+													</a>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!--<div class="col-md-6 col-lg-3">
+							<div class="widget widget-flickr">
+								<h3 class="widget-title">Flickr Photos</h3>
+								<img src="../images/flickr-imgs.png" alt="">
+							</div>
+						</div>-->
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- /Footer -->
+	
+	<!-- Copyright -->
+	<div class="copyright text-center">
+		<div class="container">
+			<a href="index.html#" class="color-secondary">Probabilística</a> - Copyright 2019. -  Realizado por <a href="https://masclientes.mx" class="color-secondary">Masclientes.mx</a>
+		</div>
+	</div>
+	<!-- /Copyright -->
+
+</div>
+
+</body>
+</html>
